@@ -1,0 +1,18 @@
+# data
+test_patch_file: "/path/to/test_patch.h5"
+test_gene_file: "/path/to//test_gene.h5"
+
+# pretrained model
+diffusion_path: "/path/to/ema"
+# ckpt
+fusion_net_path: "/path/to/checkpoint_best.pth"
+device: cuda
+batch_size: 32
+
+# fusion net architecture
+noise_label: 0.01
+pool_type: "average"
+out_dim: 541
+fusion_method: "gated_residual" # add
+c: 1.0
+c_learnable: True
