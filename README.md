@@ -13,7 +13,7 @@ The model first pretrains a diffusion network conditioned on gene expression, th
 ## 📦 Quick Start
 **1. Clone the repository**
 ```bash
-git clone https://github.com/Bochong01/DiffBulk.git
+git clone https://github.com/iMVR-PL/DiffBulk.git
 cd DiffBulk
 ```
 
